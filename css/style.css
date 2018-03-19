@@ -67,3 +67,12 @@ a:hover {
 .card-body h5:hover {
     font-size: 130%;
 }
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    width: inherit;
+    color: white;
+    padding: .5em 1em;
+    margin: .5em 0; 
+}
