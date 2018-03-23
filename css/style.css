@@ -18,10 +18,14 @@ header h1 {
     margin-bottom:0;
 }
 
-section div.container {
+section, aside {
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 4px;
+    margin-bottom: 2em;
+}
+
+.mainBody {
     margin-bottom: 5em;
 }
 
@@ -75,4 +79,26 @@ a:hover {
     color: white;
     padding: .5em 1em;
     margin: .5em 0; 
+}
+
+/* The animation code */
+@keyframes bouncingIcons {
+    0% {width:50px;}
+    50% {width:52px;}
+    100% {width:50px;}
+}
+
+aside img {
+    width:50px;
+    animation-name: bouncingIcons;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+aside ul {
+    padding-left:0;
+}
+
+aside ul li {
+    display: inline-block;
 }
